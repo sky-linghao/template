@@ -1,0 +1,39 @@
+.page_container {
+	padding: 30px 0;
+	ul {
+		text-align: center;
+		font-size: 0;
+		li {
+			display: inline-block;
+			margin: 0 10px;
+			border: 1px solid #ccc;
+			height: 30px;
+			line-height: 30px;
+			box-sizing: border-box;
+			font-size: 14px;
+			padding: 0 10px;
+			cursor: pointer;
+			border-radius: 5px;
+			font-weight: "Microsoft Yahei";
+			&.activePage {
+				color: red;
+				border: 1px solid red;
+				text-align: center;
+			}
+			&:first-child,
+			&:last-child {
+				width: auto;
+			}
+			&.nomore {
+				cursor: default;
+				color: #999;
+			}
+			&.omission {
+				border: none;
+				cursor: default;
+				margin: 0;
+				font-family: Arial;
+			}
+		}
+	}
+}
