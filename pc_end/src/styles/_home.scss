@@ -1,0 +1,15 @@
+.Cl1 {
+	height: 80px;
+	ul {
+		width: 1000px;
+		height: 100%;
+		margin: 0 auto;
+
+		li {
+			width: 160px;
+			float: left;
+			line-height: 80px;
+			text-align: center;
+		}
+	}
+}
